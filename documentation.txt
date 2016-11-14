@@ -1,0 +1,5 @@
+GITHUB process:
+1. commit
+2. pull
+(--> merge changes --> commit)
+3. push
