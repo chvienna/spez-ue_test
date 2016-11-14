@@ -14,50 +14,49 @@
         <script src="res/js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-
-        <div class="container">
+        <div class="container">          
             <div class="row">
-                <nav class="col-md-3">   
+                <header class="col-xs-12">
+                    <?php
+                    include("inc/header.php");
+                    ?>
+                </header>
+            </div>
+
+            <div class="row">             
+                <main class="col-xs-12">               
+                    <?php
+                    if (isset($_GET['content'])) {
+                        switch ($_GET['content']) {
+                            case 'tagebuch':
+                                include("inc/tagebuch.php");
+                                break;
+                            case 'nebenwirkungen':
+                                include("inc/nebenwirkungen.php");
+                                break;
+                            case 'behandlung':
+                                include("inc/behandlung.php");
+                                break;
+                            case 'bericht':
+                                include("inc/bericht.php");
+                                break;
+                            default:
+                                include("inc/tagebuch.php");
+                        }
+                    } else {
+                        include("inc/tagebuch.php");
+                    }
+                    ?>              
+                </main>
+            </div>  
+
+            <div class="row">
+                <nav class="col-xs-12">   
                     <?php
                     include("inc/nav.php");
                     ?>
                 </nav>  
-                
-                <div class="col-md-9">
-                <div class="row">
-                    <header class="col-md-12">
-                        <?php
-                        include("inc/header.php");
-                        ?>
-                    </header>
-
-                    <main class="col-md-12">               
-                        <?php
-                        if (isset($_GET['content'])) {
-                            switch ($_GET['content']) {
-                                case 'tagebuch':
-                                    include("inc/tagebuch.php");
-                                    break;
-                                case 'nebenwirkungen':
-                                    include("inc/nebenwirkungen.php");
-                                    break;
-                                case 'behandlung':
-                                    include("inc/behandlung.php");
-                                    break;
-                                case 'bericht':
-                                    include("inc/bericht.php");
-                                    break;
-                                default:
-                                    include("inc/tagebuch.php");
-                            }
-                        } else {
-                            include("inc/tagebuch.php");
-                        }
-                        ?>              
-                    </main>
-                </div> <!--  end row mid-Ïcontent-->
-                </div> <!--  end col md 9-->
-            </div>   <!--  end row content-->
-        </div>
+            </div>
+        </div>   <!--  end row content-->
     </body>
 </html>
