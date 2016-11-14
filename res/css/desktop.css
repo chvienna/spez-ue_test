@@ -1,0 +1,26 @@
+.container{
+    /*breakpoint in grid-system for medium device tablets: 970px*/
+    width: 970px;   
+    height: 600px;
+    border: solid 2px grey ;
+    margin-top: 25px;   
+}
+
+nav{
+    border: solid 2px grey ;
+}
+
+nav ul li a{
+    height: 142px;
+}
+
+header{
+   border: solid 2px grey ; 
+   height: 100px;
+}
+
+main{
+   border: solid 2px grey ;
+   height: 500px;
+}
+
