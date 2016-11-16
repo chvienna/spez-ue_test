@@ -14,6 +14,11 @@
         <script src="res/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <!-- javascript -->
         <script src="res/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- javascript for datepicker (online) -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
     <body>
         <div class="container"> 
@@ -32,48 +37,48 @@
                 <div class="col-md-9"> 
                     <!--header-->
                     <div class="row">                      
-                            <header>
-                                <?php
-                                include("inc/header.php");
-                                ?>
-                            </header>                      
+                        <header>
+                            <?php
+                            include("inc/header.php");
+                            ?>
+                        </header>                      
                     </div>
 
                     <!--text_banner-->
                     <div class="row">                        
-                            <div class="panel panel-default panel-body">
-                                <?php
-                                include("inc/text_banner.php");
-                                ?>
-                            </div>                     
+                        <div class="panel panel-default panel-body">
+                            <?php
+                            include("inc/text_banner.php");
+                            ?>
+                        </div>                     
                     </div>
 
                     <!--main content-->
                     <div class="row">                        
-                            <main>               
-                                <?php
-                                if (isset($_GET['content'])) {
-                                    switch ($_GET['content']) {
-                                        case 'tagebuch':
-                                            include("inc/tagebuch.php");
-                                            break;
-                                        case 'nebenwirkungen':
-                                            include("inc/nebenwirkungen.php");
-                                            break;
-                                        case 'behandlung':
-                                            include("inc/behandlung.php");
-                                            break;
-                                        case 'bericht':
-                                            include("inc/bericht.php");
-                                            break;
-                                        default:
-                                            include("inc/tagebuch.php");
-                                    }
-                                } else {
-                                    include("inc/tagebuch.php");
+                        <main>               
+                            <?php
+                            if (isset($_GET['content'])) {
+                                switch ($_GET['content']) {
+                                    case 'tagebuch':
+                                        include("inc/tagebuch.php");
+                                        break;
+                                    case 'nebenwirkungen':
+                                        include("inc/nebenwirkungen.php");
+                                        break;
+                                    case 'behandlung':
+                                        include("inc/behandlung.php");
+                                        break;
+                                    case 'bericht':
+                                        include("inc/bericht.php");
+                                        break;
+                                    default:
+                                        include("inc/tagebuch.php");
                                 }
-                                ?>              
-                            </main>                      
+                            } else {
+                                include("inc/tagebuch.php");
+                            }
+                            ?>              
+                        </main>                      
                     </div>  
                 </div>   <!--end col desktop content-->
 
@@ -87,7 +92,7 @@
                         </nav> 
                     </div>
                 </div>
-                
+
             </div>   <!--end overall row-->  
         </div>  <!--end container--> 
     </body>
