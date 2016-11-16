@@ -1,0 +1,5 @@
+index.php: 
+- has 2 navigations, as mobile and desktop are different (mobile = buttons, desktop = navpills / different position as well)
+
+
+

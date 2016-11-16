@@ -1,2 +1,2 @@
-<h1>BERICHT</h1>
+<h4>BERICHT</h4>
 

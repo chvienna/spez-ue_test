@@ -1,2 +1,25 @@
+/*mobile size = default (no query needed)*/
+
+.container{     
+    border: solid 1px grey ;
+}
+
+nav{
+    border: solid 1px blue ;
+}
 
 
+header{
+    border: solid 1px orange ; 
+    height: 50px;
+}
+
+main{
+    border: solid 1px yellow;
+    height: auto;
+}
+
+/*navImg center align*/
+.img-responsive{
+    margin: 0 auto;
+}

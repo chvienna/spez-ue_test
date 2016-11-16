@@ -1,8 +1,2 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+<h5>Das ist der Text_Banner. Wird grün wenn gespeichert, rot wenn nicht gespeichert.</h5>
 

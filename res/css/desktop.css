@@ -1,27 +1,38 @@
-
+/*medium desktop size*/
+@media(min-width:992px){
     .container{
         /*breakpoint in grid-system for medium device tablets: 970px*/
-        width: 970px;   
-        height: 600px;
-        border: solid 2px grey ;
+        border: solid 1px grey ;
         margin-top: 25px;   
     }
 
     nav{
-        border: solid 2px grey ;
+        border: solid 1px blue ;
     }
 
     nav ul li a{
-        height: 142px;
+        height: 145px;
     }
 
     header{
-        border: solid 2px grey ; 
+        border: solid 1px orange ; 
         height: 100px;
     }
 
     main{
-        border: solid 2px grey ;
-        height: 500px;
+        border: solid 1px yellow ;
+        height: auto;
     }
+    
+    .navImg{
+        margin-left: 15px;
+        margin-top:30px;
+    }
+    .navText{
+        float: left;
+        margin-top: -35px;
+        margin-left: 75px;
+    }
+
+}
 
