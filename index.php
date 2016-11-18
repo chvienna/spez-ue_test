@@ -7,6 +7,7 @@
         <title>Home</title>
         <!-- css -->
         <link href="res/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="res/css/all.css" rel="stylesheet" type="text/css"/>
         <link href="res/css/mobile.css" rel="stylesheet" type="text/css"/>
         <link href="res/css/tablet.css" rel="stylesheet" type="text/css"/>
         <link href="res/css/desktop.css" rel="stylesheet" type="text/css"/>
@@ -34,7 +35,7 @@
                 </div>
 
                 <!--extra col for desktop header, text_banner and main content-->
-                <div class="col-md-9"> 
+                <div id="colContentDt" class="col-md-9"> 
                     <!--header-->
                     <div class="row">                      
                         <header>

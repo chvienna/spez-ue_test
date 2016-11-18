@@ -2,37 +2,54 @@
 @media(min-width:992px){
     .container{
         /*breakpoint in grid-system for medium device tablets: 970px*/
-        border: solid 1px grey ;
         margin-top: 25px;   
     }
 
-    nav{
-        border: solid 1px blue ;
-    }
-
     nav ul li a{
-        height: 145px;
+        height: 150px;
     }
 
     header{
-        border: solid 1px orange ; 
-        height: 100px;
+        height: 150px;
+        padding-top: 55px;
+    }
+    
+    .panel-body{
+        height: 60px;
     }
 
     main{
-        border: solid 1px yellow ;
         height: auto;
     }
     
     .navImg{
-        margin-left: 15px;
+        margin-left: 10px;
         margin-top:30px;
     }
-    .navText{
+    .navTxt{
         float: left;
         margin-top: -35px;
-        margin-left: 75px;
+        margin-left: 70px;
+        
+        font-family: Verdana, Times, sans-serif;
+        font-size: 15px;
+        font-variant-caps: small-caps;
+        color: #4c4c4c;
     }
-
+    
+    #headerTitel{
+        font-family: Verdana, Times, sans-serif;
+        font-size: 27px;
+        font-variant-caps: small-caps;
+        color: #4c4c4c;
+    }
+    
+    #colContentDt{
+        border: solid 2px grey;
+        border-radius: 24px;
+        height: 600px;
+    }
+    
+    
 }
 

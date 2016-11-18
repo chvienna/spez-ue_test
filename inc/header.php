@@ -1,10 +1,10 @@
 <!--desktop left title-->
-<div class="hidden-xs hidden-sm col-md-3">
-    <h2>TAGEBUCH</h2>  
+<div id="headerTitel" class="hidden-xs hidden-sm col-md-3">
+    TAGEBUCH  
 </div>
 
 <!--mobile left icon for active page-->
-<div class="col-xs-3 hidden-md hidden-lg">
+<div id="headerPageIconMob" class="col-xs-3 hidden-md hidden-lg">
     <img class="img-responsive" src="img/test.png" alt="imgTagebuch">
 </div>
 
@@ -12,7 +12,7 @@
 <!--<div class="hidden-xs col-sm-4 col-xs-offset-1"> -->
   
 <!--desktop / tablet / mobile: centered calendar-->
-<div class="col-xs-6 col-sm-2 col-sm-offset-2"> 
+<div id="headerCal" class="col-xs-6 col-sm-2 col-sm-offset-2"> 
     <script>
         $(function () {
             $("#datepicker").datepicker({
@@ -30,7 +30,7 @@
 </div>-->
 
 <!--desktop / mobile: right icons-->
-<div class="col-xs-3 pull-right">
+<div id="headerLetterIcon" class="col-xs-3 pull-right">
     <img class="img-responsive" src="img/letter.png" alt="imgTagebuch">
 </div>
 
