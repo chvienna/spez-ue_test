@@ -13,8 +13,10 @@
         <link href="res/css/desktop.css" rel="stylesheet" type="text/css"/>
         <!-- jQuery  -->
         <script src="res/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="res/js/text_banner.js" type="text/javascript"></script>
         <!-- javascript -->
         <script src="res/js/bootstrap.min.js" type="text/javascript"></script>
+        
         <!-- javascript for datepicker (online) -->
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="/resources/demos/style.css">
@@ -47,7 +49,7 @@
 
                     <!--text_banner-->
                     <div class="row">                        
-                        <div class="panel panel-default panel-body">
+                        <div id="txtBanner" class="panel panel-default panel-body">
                             <?php
                             include("inc/text_banner.php");
                             ?>
@@ -83,7 +85,7 @@
                     </div>  
                 </div>   <!--end col desktop content-->
 
-                <!--extra row for mobile navigation-->
+                <!--extra row for mobile/tablet navigation-->
                 <div class="row">
                     <div class="hidden-md hidden-lg">
                         <nav class="navbar navbar-fixed-bottom">   

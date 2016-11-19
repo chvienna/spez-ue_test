@@ -1,11 +1,16 @@
-/*mobile size = default (no query needed)*/
-
-.container{     
-    /*border: solid 1px grey ;*/
+/*BASIC LAYOUT (mobile = default, no query needed)*/
+.container{
+    /*border: solid 1px blue;*/
+    border: solid 2px grey;
+    border-radius: 20px;
+    height: auto;
+    /*WIE HEIGHT GENAU BIS ZUM NAV-BOTTOM? (device diff!)*/
+    min-height: 680px;  
 }
 
 nav{
-    /*border: solid 1px blue ;*/
+    /*border: solid 2px grey;*/
+    border-radius: 20px;
 }
 
 header{
@@ -17,9 +22,33 @@ header{
 main{
     /*border: solid 1px yellow;*/
     height: auto;
+    padding-left: 20px;
 }
+
+/*NAVIGATION*/
 
 /*navImg center align*/
 .img-responsive{
     margin: 0 auto;
+}
+
+#navBtnMob div a img{
+    width: 100%;
+    max-width: 28px;
+}
+
+.navbar{
+    margin-bottom: -7px;
+}
+
+/*HEADER*/
+
+#headerPageIconMobTab{
+    width: 100%;
+    max-width: 80px;
+}
+
+#headerLetterIcon img{
+    width: 100%;
+    max-width: 25px;
 }

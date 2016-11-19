@@ -4,8 +4,8 @@
 </div>
 
 <!--mobile left icon for active page-->
-<div id="headerPageIconMob" class="col-xs-3 hidden-md hidden-lg">
-    <img class="img-responsive" src="img/test.png" alt="imgTagebuch">
+<div id="headerPageIconMobTab" class="col-xs-3 hidden-md hidden-lg">
+    <img class="img-responsive" src="img/tb1gr.png" alt="imgTagebuch">
 </div>
 
 <!--desktop / tablet: centered calendar-->
@@ -31,7 +31,7 @@
 
 <!--desktop / mobile: right icons-->
 <div id="headerLetterIcon" class="col-xs-3 pull-right">
-    <img class="img-responsive" src="img/letter.png" alt="imgTagebuch">
+    <img class="img-responsive" src="img/letterMaxgr.png" alt="imgTagebuch">
 </div>
 
 
