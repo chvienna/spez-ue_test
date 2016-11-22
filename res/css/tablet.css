@@ -1,19 +1,30 @@
 @media(min-width:768px){
+    /*BASIC LAYOUT*/
+    
+    header{
+        height: 90px;
+    }
 
     /*NAVIGATION*/
-    #navBtnMob div a img{
-        width: 100%;
+    
+    #navBtn div a img{
         max-width: 50px;
     }
 
     /*HEADER*/
-    #headerPageIconMobTab{
-        width: 100%;
-        max-width: 100px;
+    
+    #headerPageIcon{
+        max-width: 70px;
     }
-    #headerLetterIcon img{
-        width: 100%;
-        max-width: 35px;
+    #headerLetterIcon{
+        max-width: 50px;
+    }
+
+    /*DATEPICKER*/
+    
+    #datepicker{
+        font-size: 18px;
+        width: 100px;
     }
 }
 

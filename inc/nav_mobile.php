@@ -1,6 +1,6 @@
 <!--mobile navigation-->
 
-<div id="navBtnMob" class="btn-group btn-group-justified" role="group" aria-label="navbtnGroupMob">
+<div id="navBtn" class="btn-group btn-group-justified" role="group" aria-label="navbtnGroupMob">
     <!--nav button tagebuch-->
     <div class="btn-group" role="group" id="navBtnTb">
         <a id="navBtnTb" href="http://localhost/SPEZ-UE_loc/index.php?content=tagebuch" class="btn btn-default" aria-label="navBtnTbMob">

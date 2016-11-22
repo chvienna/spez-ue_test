@@ -2,6 +2,7 @@
 @media(min-width:992px){
     
     /*BASIC LAYOUT*/
+    
     .container{
         margin-top: 25px;  
         border: none;
@@ -16,14 +17,15 @@
     #colContentDt{
         border: solid 2px grey;
         border-radius: 24px;
-        height: 600px;
+        height: 602px;
+        margin-left: -20px;
+        background-color: white;
     } 
 
     header{
         height: 148px;
         border-bottom: solid grey 1px;  
         padding-top: 58px;
-        padding-left: 25px; 
     }
 
     /*textbanner*/
@@ -33,12 +35,11 @@
     }
 
     main{
-        height: auto;
         padding-left: 25px;
     }
-
     
     /*NAVIGATION*/
+    
     nav ul li a{
         height: 150px;
         border-bottom: solid grey 1px;
@@ -77,6 +78,17 @@
         font-size: 29px;
         font-variant-caps: small-caps;
         color: #4c4c4c;
+        margin-left: 15px;
     }  
+    
+    #headerLetterIcon{
+        max-width: 35px;
+    }
+    
+    /*DATEPICKER*/
+    #datepicker{
+        font-size: 20px;
+        width: 120px;
+    }
 }
 

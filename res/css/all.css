@@ -34,72 +34,12 @@
     background-color: #fef2dd;
 }
 
-
 /*textbanner*/
 .panel-body{
+    border-radius: 0px;
     background-color: rgba(225, 225, 225, .4);
     font-family: Verdana, Times, sans-serif;
     font-size: 15spx;
     font-variant-caps: small-caps;
-    color: #4c4c4c;    
+    color: #4c4c4c; 
 }
-
-
-
-/*nav colors
-#navBtnTb{
-    background-color: #d6ebff;
-    border-radius: 20px;
-    border: solid 1px grey;
-    margin-bottom: -2px;
- 
-}
-
-#navBtnNw{
-    background-color: #c3c4ec;
-    border-radius: 20px;
-    border: solid 1px grey;
-    margin-bottom: -2px;
-  
-}
-
-#navBtnBeh{
-    background-color: #c0eac4;
-    border-radius: 20px;
-    border: solid 1px grey;
-    margin-bottom: -2px;
-}
-
-#navBtnBer{
-    background-color: #feeac4;
-    border-radius: 20px;
-    border: solid 1px grey;
-    margin-bottom: -2px;
-}*/
-
-
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-
-}
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
-}
-

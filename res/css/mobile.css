@@ -1,28 +1,42 @@
 /*BASIC LAYOUT (mobile = default, no query needed)*/
+
 .container{
     /*border: solid 1px blue;*/
     border: solid 2px grey;
     border-radius: 20px;
     height: auto;
     /*WIE HEIGHT GENAU BIS ZUM NAV-BOTTOM? (device diff!)*/
-    min-height: 680px;  
+    min-height: 680px; 
+    margin-bottom: 60px;
 }
 
 nav{
-    /*border: solid 2px grey;*/
+    /*border: solid 2px red;*/
     border-radius: 20px;
 }
 
 header{
     /*border: solid 1px orange ;*/ 
-    height: 60px;
+    height: 70px;
     padding-top: 10px;
+    border-bottom: solid grey 1px;  
 }
 
 main{
     /*border: solid 1px yellow;*/
     height: auto;
     padding-left: 20px;
+}
+
+/*cols for headerPageIcon and headerLetterIcon*/
+.col-xs-2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/*calendar center align*/
+.rowHeaderCentered{  
+    text-align: center;
 }
 
 /*NAVIGATION*/
@@ -32,23 +46,35 @@ main{
     margin: 0 auto;
 }
 
-#navBtnMob div a img{
+#navBtn div a img{
     width: 100%;
     max-width: 28px;
 }
 
 .navbar{
+    /*border: solid 2px red;*/
     margin-bottom: -7px;
 }
 
 /*HEADER*/
 
-#headerPageIconMobTab{
+#headerPageIcon{
     width: 100%;
-    max-width: 80px;
+    max-width: 50px;
+
 }
 
-#headerLetterIcon img{
+#headerLetterIcon{
     width: 100%;
-    max-width: 25px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+/*DATEPICKER*/
+#datepicker{
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4c4c4c;
+    width: 90px;
 }

@@ -1,28 +1,33 @@
 $(document).ready(function () {
-    
-    //textbanner SAVED
-    $("#saveBtn").click(function () {
-//        $("#txtBanner").fadeIn().css("background-color", "#ddf0de");
-         $("#txtBanner").fadeIn().css("background-color", "#ddf0de").text("Gespeichert!").delay(2000);
-        
+    var originText = $('#txtBanner').text();
+    var originColor = $('#txtBanner').css("background-color");
+    var green = "#ddf0de";
+    var red = "#e8c8c8";
+    var grey = "";
+
+//    textbanner SAVED
+    $(".saveBtn").click(function () {
+        setTxtBanner('Gespeichert', green, originText, originColor);
     });
-    
+
     //textbanner BREAK
-     $("#breakBtn").click(function () {
-//        $("#txtBanner").fadeIn().css("background-color", "#ddf0de");
-         $("#txtBanner").fadeIn().css("background-color", "#e8c8c8").text("Abgebrochen!").delay(2000);
-        
+    $(".breakBtn").click(function () {
+        setTxtBanner('Abgebrochen', red, originText, originColor);
+    });
+
+//    textbanner OWN TEXT
+    $("#myBtn1").click(function () {
+        setTxtBanner('Sie haben Ihr Medikament genommen.', green , originText, originColor);
     });
     
-    
-    //textbanner OWN TEXT
-    $(".txtBtn").click(function () {
-        setTxtBannerGreen($(".txtBtn").val());
+    $("#myBtn2").click(function () {
+        setTxtBanner('Mein Text2', grey , originText, originColor);
     });
-    
-     function setTxtBannerGreen($txt){
-        $("#txtBanner").fadeIn().css("background-color", "#ddf0de").text($txt).delay(2000);
-    }
 });
 
-
+function setTxtBanner(txt, color, originText, originColor) {
+    $("#txtBanner").css("background-color", color).text(txt);
+    window.setTimeout(function () {
+        $("#txtBanner").css("background-color", originColor).text(originText);
+    }, 3000);
+}
