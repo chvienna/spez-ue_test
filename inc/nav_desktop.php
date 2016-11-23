@@ -2,8 +2,9 @@
 
 <ul class="nav nav-pills nav-stacked">
     <!--nav button tagebuch-->
-    <li id="navBtnTb">       
-        <a href="http://localhost/SPEZ-UE_loc/index.php?content=tagebuch">
+    <li id="navBtnTb">      
+        <!-- the links to other php-files ect have to be relative, not absolute -->
+        <a href="index.php?content=tagebuch">
             <img class="img-responsive navImg" src="img/tb.png" alt="imgTagebuch">
             <span class="navTxt">Tagebuch</span>
         </a>
@@ -11,7 +12,7 @@
     
     <!--nav button nebenwirkungen-->
     <li id="navBtnNw">
-        <a href="http://localhost/SPEZ-UE_loc/index.php?content=nebenwirkungen">
+        <a href="index.php?content=nebenwirkungen">
             <img class="img-responsive navImg" src="img/nw.png" alt="imgNebenwirkungen">
             <span class="navTxt">Nebenwirkungen</span>
         </a>
@@ -19,7 +20,7 @@
     
     <!--nav button behandlung-->
     <li id="navBtnBeh">
-        <a href="http://localhost/SPEZ-UE_loc/index.php?content=behandlung">
+        <a href="index.php?content=behandlung">
              <img class="img-responsive navImg" src="img/tb.png" alt="imgBehandlung">
             <span class="navTxt">Behandlung</span>
         </a>
@@ -27,7 +28,7 @@
     
     <!--nav button bericht-->
     <li id="navBtnBer">
-        <a href="http://localhost/SPEZ-UE_loc/index.php?content=bericht">
+        <a href="index.php?content=bericht">
              <img class="img-responsive navImg" src="img/ber.png" alt="imgBericht">
             <span class="navTxt">Bericht</span>
         </a>
