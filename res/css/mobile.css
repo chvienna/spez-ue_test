@@ -25,7 +25,8 @@ header{
 main{
     /*border: solid 1px yellow;*/
     height: auto;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*cols for headerPageIcon and headerLetterIcon*/
@@ -77,4 +78,14 @@ main{
     font-weight: bold;
     color: #4c4c4c;
     width: 90px;
+}
+
+
+/************************** TAGEBUCH *******************************/
+
+#rowMedTakenContent{
+    border: solid 1px grey;
+    margin-bottom: 30px;
+    
+    
 }

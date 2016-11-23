@@ -15,13 +15,10 @@ $(document).ready(function () {
         setTxtBanner('Abgebrochen', red, originText, originColor);
     });
 
-//    textbanner OWN TEXT
-    $("#myBtn1").click(function () {
-        setTxtBanner('Sie haben Ihr Medikament genommen.', green , originText, originColor);
-    });
-    
-    $("#myBtn2").click(function () {
-        setTxtBanner('Mein Text2', grey , originText, originColor);
+//    textbanner OWN TEXT 
+    $("#notTakenBtn").click(function () {
+//                ...proof txtfield
+        setTxtBanner('Bitte geben Sie einen Grund an, bevor Sie speichern', red , originText, originColor);
     });
 });
 
