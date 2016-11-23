@@ -13,13 +13,17 @@
         <link href="res/css/desktop.css" rel="stylesheet" type="text/css"/>
         <!-- jQuery  -->
         <script src="res/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="res/js/header.js" type="text/javascript"></script>
+        <script src="res/js/text_banner.js" type="text/javascript"></script>
         <!-- javascript -->
         <script src="res/js/bootstrap.min.js" type="text/javascript"></script>
-        <!-- javascript for datepicker (online) -->
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        
+        <!-- DATEPICKER styles & scripts -->
+        <link href="res/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<!--        <link href="res/css/jquery-ui.structure.css" rel="stylesheet" type="text/css"/>-->
+        <script src="res/js/jquery-ui.js" type="text/javascript"></script>
+            <!--customized jquery theme-->
+        <link href="res/css/jquery-ui.theme.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="container"> 
@@ -37,7 +41,7 @@
                 <!--extra col for desktop header, text_banner and main content-->
                 <div id="colContentDt" class="col-md-9"> 
                     <!--header-->
-                    <div class="row">                      
+                    <div class="row rowHeaderCentered">                      
                         <header>
                             <?php
                             include("inc/header.php");
@@ -47,7 +51,7 @@
 
                     <!--text_banner-->
                     <div class="row">                        
-                        <div class="panel panel-default panel-body">
+                        <div id="txtBanner" class="panel panel-default panel-body">
                             <?php
                             include("inc/text_banner.php");
                             ?>
@@ -83,7 +87,7 @@
                     </div>  
                 </div>   <!--end col desktop content-->
 
-                <!--extra row for mobile navigation-->
+                <!--extra row for mobile/tablet navigation-->
                 <div class="row">
                     <div class="hidden-md hidden-lg">
                         <nav class="navbar navbar-fixed-bottom">   
