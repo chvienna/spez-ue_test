@@ -1,55 +1,94 @@
-/*medium desktop size*/
+/*MEDIUM desktop size*/
 @media(min-width:992px){
+    
+    /*BASIC LAYOUT*/
+    
     .container{
-        /*breakpoint in grid-system for medium device tablets: 970px*/
-        margin-top: 25px;   
+        margin-top: 25px;  
+        border: none;
+        min-height: auto;
     }
 
-    nav ul li a{
-        height: 150px;
+    .col-md-3{
+        padding-left: 0px;
+        padding-right: 0px;
     }
+
+    #colContentDt{
+        border: solid 2px grey;
+        border-radius: 24px;
+        height: 602px;
+        margin-left: -20px;
+        background-color: white;
+    } 
 
     header{
-        height: 150px;
-        padding-top: 55px;
+        height: 148px;
+        border-bottom: solid grey 1px;  
+        padding-top: 58px;
     }
-    
+
+    /*textbanner*/
     .panel-body{
         height: 60px;
+        padding-left: 25px;
     }
 
     main{
-        height: auto;
+        padding-left: 25px;
     }
     
+    /*NAVIGATION*/
+    
+    nav ul li a{
+        height: 150px;
+        border-bottom: solid grey 1px;
+        border-left: solid grey 1px;
+        border-right: solid grey 1px;
+        margin-bottom: -2px;
+    }
+
+    .nav li a img{
+        width: 100%;
+        max-width: 60px;
+    }
+
+    #navBtnTb{
+        border-top: solid grey 1px;
+    }
+
     .navImg{
         margin-left: 10px;
         margin-top:30px;
     }
+
     .navTxt{
         float: left;
         margin-top: -35px;
         margin-left: 70px;
-        
         font-family: Verdana, Times, sans-serif;
         font-size: 15px;
         font-variant-caps: small-caps;
         color: #4c4c4c;
     }
-    
+
+    /*HEADER*/
     #headerTitel{
         font-family: Verdana, Times, sans-serif;
-        font-size: 27px;
+        font-size: 29px;
         font-variant-caps: small-caps;
         color: #4c4c4c;
+        margin-left: 15px;
+    }  
+    
+    #headerLetterIcon{
+        max-width: 35px;
     }
     
-    #colContentDt{
-        border: solid 2px grey;
-        border-radius: 24px;
-        height: 600px;
+    /*DATEPICKER*/
+    #datepicker{
+        font-size: 20px;
+        width: 120px;
     }
-    
-    
 }
 
