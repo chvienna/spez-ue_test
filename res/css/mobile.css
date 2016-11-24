@@ -1,91 +1,25 @@
-/*BASIC LAYOUT (mobile = default, no query needed)*/
+/*mobile size = default (no query needed)*/
 
-.container{
-    /*border: solid 1px blue;*/
-    border: solid 2px grey;
-    border-radius: 20px;
-    height: auto;
-    /*WIE HEIGHT GENAU BIS ZUM NAV-BOTTOM? (device diff!)*/
-    min-height: 680px; 
-    margin-bottom: 60px;
+.container{     
+    /*border: solid 1px grey ;*/
 }
 
 nav{
-    /*border: solid 2px red;*/
-    border-radius: 20px;
+    /*border: solid 1px blue ;*/
 }
 
 header{
     /*border: solid 1px orange ;*/ 
-    height: 70px;
+    height: 60px;
     padding-top: 10px;
-    border-bottom: solid grey 1px;  
 }
 
 main{
     /*border: solid 1px yellow;*/
     height: auto;
-    padding-left: 30px;
-    padding-right: 30px;
 }
-
-/*cols for headerPageIcon and headerLetterIcon*/
-.col-xs-2{
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-/*calendar center align*/
-.rowHeaderCentered{  
-    text-align: center;
-}
-
-/*NAVIGATION*/
 
 /*navImg center align*/
 .img-responsive{
     margin: 0 auto;
-}
-
-#navBtn div a img{
-    width: 100%;
-    max-width: 28px;
-}
-
-.navbar{
-    /*border: solid 2px red;*/
-    margin-bottom: -7px;
-}
-
-/*HEADER*/
-
-#headerPageIcon{
-    width: 100%;
-    max-width: 50px;
-
-}
-
-#headerLetterIcon{
-    width: 100%;
-    max-width: 40px;
-    margin-right: 10px;
-}
-
-/*DATEPICKER*/
-#datepicker{
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: #4c4c4c;
-    width: 90px;
-}
-
-
-/************************** TAGEBUCH *******************************/
-
-#rowMedTakenContent{
-    border: solid 1px grey;
-    margin-bottom: 30px;
-    
-    
 }

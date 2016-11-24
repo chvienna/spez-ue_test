@@ -3,20 +3,3 @@ GITHUB process:
 2. pull
 (--> merge changes --> commit)
 3. push
-
-
-SYNTAX:
-Tb
-Nw
-Ber
-Beh
-global
-Btn = button
-Txt = text
-Mob = mobile
-Dt = Desktop
-
-
-Bsp: 
-navBtnTbMob
-navBtnTbDt
